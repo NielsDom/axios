@@ -1,4 +1,4 @@
-import axios from 'axios';
+```import axios from 'axios';
 
 axios.get('/user?ID=12345')
   .then(response => console.log(response.data))
@@ -11,3 +11,4 @@ axios.post('/user', {
 })
   .then(response => console.log(response.data))
   .catch(error =>  console.log(error))
+```
